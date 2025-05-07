@@ -68,8 +68,8 @@ function Nav() {
     <div className="fixed top-0 bg-[white] z-[20]">
       <div className="w-[100vw] min-h-[80px]  border-b-[1px] border-[#dcdcdc] px-[20px] flex items-center justify-between md:px-[40px] ">
         <div>
-            <h1 className="text-2xl text-black cursor-pointer font-extrabold">RoomDekho</h1>
-          {/* <img src={logo} alt="" className="w-[130px]" /> */}
+          
+          { <img src={logo} alt="" className="w-[130px]" />}
         </div>
 
         <div className="w-[35%] relative hidden md:block ">
