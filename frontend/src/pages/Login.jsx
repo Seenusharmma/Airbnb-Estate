@@ -54,7 +54,7 @@ function Login() {
               {show && <IoMdEyeOff className='w-[22px] h-[22px] absolute right-[12%] bottom-[10px] cursor-pointer' onClick={()=>setShow(prev =>!prev)}/>}
               </div>
               <button className='px-[50px] py-[10px] bg-[red] text-[white] text-[18px] md:px-[100px] rounded-lg hover:bg-emerald-600' disabled={loading}>{loading?"Loading...":"Login"}</button>
-              <p className='text-[18px]'>Create new account <span className='text-[19px] text-[red] cursor-pointer hover:bg-emerald-600' onClick={()=>navigate("/SignUP")}>SignUp</span>
+              <p className='text-[18px]'>Create new account <span className='text-[19px] text-[red] cursor-pointer hover:text-emerald-600' onClick={()=>navigate("/SignUP")}>SignUp</span>
               </p>
             </form>
          
