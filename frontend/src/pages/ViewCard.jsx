@@ -292,7 +292,7 @@ function ViewCard() {
                                     </p>
                                     <p className='w-[100%] flex justify-between items-center px-[20px] border-b-[1px] border-gray-500 pb-[10px]'>
                                         <span className='font-semibold'>
-                                            Airbnb Charge
+                                            RoomDekho Charge
                                         </span>
                                         <span>{cardDetails.rent*7/100}</span>
                 
