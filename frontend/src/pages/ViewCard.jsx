@@ -165,7 +165,7 @@ function ViewCard() {
                 Reserve
              </button>}
                   <div>
-            <a href="https://wa.me/9430723915?text=Hello How Can I Help You ?" target="blank">
+            <a href="https://wa.me/9430723915?text=Hello Welcome to room dekho website ?" target="blank">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9aUhziZOp_pylg-IP8rpzsjyQR05hS5H0fjHcsQEk-spOMkAyPVSgdqIn498_beWs4Tc&usqp=CAU" alt="logo" width={60} className="sm:text-2xl" />
             </a>
           </div>
