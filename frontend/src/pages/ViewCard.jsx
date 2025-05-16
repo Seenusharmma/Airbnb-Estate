@@ -164,6 +164,11 @@ function ViewCard() {
              {cardDetails.host != userData._id && <button className='px-[30px] py-[10px] bg-[red] text-[white] text-[18px] md:px-[100px] rounded-lg   text-nowrap' onClick={()=>setBookingPopUp(prev => !prev)}> 
                 Reserve
              </button>}
+                  <div className="fixed-bottom right-100 p-3" style={{zIndex: "6", left: "initial"}}>
+            <a href="https://wa.me/9430723915?text=Hello How Can I Help You ?" target="blank">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9aUhziZOp_pylg-IP8rpzsjyQR05hS5H0fjHcsQEk-spOMkAyPVSgdqIn498_beWs4Tc&usqp=CAU" alt="logo" width={60} />
+            </a>
+          </div>
              </div>
 
              {/* Update Listing Page */}
